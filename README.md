@@ -5,9 +5,11 @@ Permainan ini sejatinya merupakan permainan ular tangga yang dimodifikasi sedemi
 
 Tahap yang perlu dilakukan sebelum program dapat dijalankan adalah proses compile. Dikarenakan program ini dibuat 100% dalam bahasa pemrograman C, maka diperlukan C compiler. Ada banyak jenis Compiler C, salah satunya dapat diunduh melalui link berikut http://www.codeblocks.org/downloads. Secara detil tata cara pengunduhan C Compiler terdapat pada situs tersebut. Setelah terinstall, ada dua alternatif untuk langkah selanjutnya, yaitu:
 1. Clone repository ini, atau
-2. Download dalam file.zip dan extract ke folder yang diinginkan
-## Tata Cara Kompilasi Program
-Buka terminal dari direktori src dan masukkan isntruksi berikut:
+2. Download dalam file.zip dan extract ke folder yang diinginkkan
+
+
+## File Konfigurasi
+Terdapat dua file konfigurasi yang kami sediakan dan terkategorikan berdasark level game Mobitangga, yaitu level 1(test1.txt) dan level 2(test2.txt)
 
 
 

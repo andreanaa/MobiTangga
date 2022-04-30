@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "player2.c"
+
+int main(){
+    int n;
+    printf("masukkan jumlah pemain: ");
+    scanf("%d", &n);
+    TabPlayer TPlayer;
+    addPlayer(n, &TPlayer);
+    printf("Player 1: %s\n", PlayerElmt(TPlayer,1).userName);
+    PrintForward(PlayerElmt(TPlayer, 1).skills);
+    printf("\n");
+    AddSkill(TabIntPlayer(TPlayer)[1], &PlayerElmt(TPlayer, 1).skills);
+    printf("\n");
+    PrintForward(PlayerElmt(TPlayer, 1).skills);
+}

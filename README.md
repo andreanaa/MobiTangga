@@ -1,17 +1,44 @@
-# TUGAS BESAR ALSTUKDAT - MOBITANGGA
-## IF2111 KELOMPOK 19 TAHUN AJARAN 2021/2022
-MOBITANGGA merupakan permainan berbasis CLI (command-line interface) sebagai bentuk implementasi ADT yang sudah diajarkan pada kelas IF2111
-Permainan ini sejatinya merupakan permainan ular tangga yang dimodifikasi sedemikian rupa berbasis pada kartun legendaris Doraemon dan berbasis CLI (command-line interface). Permainan berkapasitas 2-4 orang yang menggunakan suatu papan dengan panjang N. Pada setiap awal permainan, semua pemain akan memulai dari kotak 1 dan berlomba untuk mencapai kotak ke-N terlebih dahulu. Permainan berakhir jika salah satu pemain mencapai kotak ke-N terlebih dahulu. Map pada permainan ini terdefini dari sebuah file konfigurasi eksternal (.txt), dimana file konfigurasi terdiri dari info jumlah petak, petak peta dalam bentuk string, maxRoll(jumlah maksimal yang dapat dihasilkan sebuah dadu), jumlah teleporter dan letaknya pada peta (berupa petak masuk dan keluar).
+MOBITANGGA – Final Project (ALSTUKDAT)
+IF2111 – Group 19 (Academic Year 2021/2022)
 
-Tahap yang perlu dilakukan sebelum program dapat dijalankan adalah proses compile. Dikarenakan program ini dibuat 100% dalam bahasa pemrograman C, maka diperlukan C compiler. Ada banyak jenis Compiler C, salah satunya dapat diunduh melalui link berikut http://www.codeblocks.org/downloads. Secara detil tata cara pengunduhan C Compiler terdapat pada situs tersebut. Setelah terinstall, ada dua alternatif untuk langkah selanjutnya, yaitu:
-1. Clone repository ini, atau
-2. Download dalam file.zip dan extract ke folder yang diinginkkan
+MOBITANGGA is a Command-Line Interface (CLI) based game developed as an implementation of Abstract Data Types (ADT) taught in the IF2111 course.
+This game is a creative adaptation of the classic Snakes and Ladders game, redesigned with inspiration from the legendary Doraemon universe and built entirely in the C programming language.
 
+The game supports 2 to 4 players and is played on a board of length N. At the start of the game, all players begin at tile 1 and race to reach tile N. The first player to arrive at tile N wins the game.
 
-## File Konfigurasi
-Terdapat dua file konfigurasi yang kami sediakan dan terkategorikan berdasark level game Mobitangga, yaitu level 1(test1.txt) dan level 2(test2.txt)
+The game map and configurations are defined through an external configuration file (.txt), which includes:
 
+Total number of tiles
 
+Board layout (as a string)
 
+maxRoll – maximum dice outcome
 
+Number and positions of teleporters (entry and exit tiles)
 
+How to Run the Program
+
+Before running MOBITANGGA, the program must be compiled, as it is written entirely in the C language.
+To do this, a C compiler is required. One option is to install Code::Blocks, available at:
+🔗 http://www.codeblocks.org/downloads
+
+Once your C compiler is installed, you may proceed with one of the following options:
+
+Clone this repository, or
+
+Download the .zip file and extract it to your desired folder
+
+Configuration Files
+
+We provide two configuration files categorized by game difficulty:
+
+Level 1: test1.txt
+
+Level 2: test2.txt
+
+Each file contains map structure, teleporters, and game rules specific to its level.
+
+If you'd like, I can add:
+✅ Gameplay Instructions
+✅ Example Commands
+✅ Screenshots or ASCII Board Preview
